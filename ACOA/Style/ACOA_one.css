@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding:0px;}
+body{background-color:#FFFFFF;}
+#main{width:950px; height:100%; margin:auto;}
+#head{width:100%; height:150px; background-color:#1BBBFF; margin-top:30px;}
+#headLeft{float:left; width:200px; height: 100px; background:none; color:#ffffff; font-size:46px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; margin-left:20px; margin-top:30px; text-align:center; text-shadow:1px  0px 4px #393939;}
+#headRight{float:right; width:300px; height:120px; margin-top:20px; margin-right:30px; }
+#logIn table{border:none; width:300px; height:120px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif}
+#usrId{width:240px; border:none; height:25px;}
+#b_login{height:25px; border:none; background-color:#232323; color:#FFFFFF; width:50px; float:right;} 
+.hLoggin{text-align:center; font-size:19px; font-weight:bold;}
+#usrPass{width:190px; border:none; height:25px; float:left;}
+#menu{width:100%; height:50px; background-color:#FFFFFF; box-shadow:2px 2px 5px  #C8C8C8;}
+.list li{width:177px; height:50px; display:block; float:left; text-decoration:none; text-align:center; list-style:none; font-size:19px; margin-left:11px; line-height:50px;}
+li a{text-decoration:none; color:#002332; display:block; width:177px; height:50px;}
+li a:hover{display:block; width:177px; height:45px; background-color:#00E5DB; color:#FFFFFF; font-weight:bold; border-radius:0px 40px; margin-top:2px;}
+#main_body{width:100%; height:440px;}
+#trackCtnr{width:600px; height:300px; float:left; margin-left:50px; margin-top:60px; text-align:justify; background-color:#F4FBFF;}
+h5{font-size:24px; text-indent:30px; color:#F08600;}
+.hrline{width:570px; float:right; margin-top:10px; height:14px; color:#858585; border:none;}
+#frmTrack table{border:none; margin-top:40px; width:400px; margin-left:100px; background-color:#DDDDDD;}
+#trackField{width:400px; border:1px; height:25px; margin:auto; border-color:#B0B0B0;}
+#b_track{width:400px; height:27px; background-color:#0097E0; color:#FFFFFF; border:none;} 
+#footer{width:100%; height:30px; background-color:#009CC3; color:#FFFFFF; text-align:center; font-size:13px; line-height:30px;}
+h6{font-size:12px; color:#191919;}
+
+#statusAr{ width:600px; height:250px; margin-top:20px;}
+#tblStatus{width:500px; height:220px;}
+#talStatus tr:first-child{ text-align:right; background-color:#7F1D1F; color:#0084FF;}
+#frmUsrupload table{width:890px; float:left; margin-left:30px; border:none; margin-top:50px; text-align:center}
+#change table{ border:none; margin:auto;}
+#change{height:100%; }
+#dowloadlist table{height:390px;}
+#searchService{ float:left; margin:auto; text-align:center;}
+#changeservice{text-align:left; float:left; margin-left:100px; width:700px; margin-top:5px;}
+#frmservice table{width:890px; float:left; margin-left:30px; border:none; margin-top:0px; text-align:center}
+#serviceul{list-style-position:inside; text-indent:30px;}
+h2{text-align:center; color:#FFA600; text-decoration:underline; line-height:10px;}
+
+#deprt{width:425px;}
+#deprt2{width:400px;}

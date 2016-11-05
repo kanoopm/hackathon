@@ -1,0 +1,58 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.6
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Nov 04, 2016 at 08:58 PM
+-- Server version: 5.0.51
+-- PHP Version: 5.2.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `acoa`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `filerecord`
+--
+
+CREATE TABLE `filerecord` (
+  `refNo` varchar(10) NOT NULL,
+  `curStat` varchar(10) NOT NULL,
+  `dSub` date NOT NULL,
+  `dcom` date NOT NULL,
+  PRIMARY KEY  (`refNo`),
+  UNIQUE KEY `refNo` (`refNo`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `filerecord`
+--
+
+INSERT INTO `filerecord` (`refNo`, `curStat`, `dSub`, `dcom`) VALUES
+('AA10020023', 'AA45678978', '2016-11-01', '2016-11-05');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login`
+--
+
+CREATE TABLE `login` (
+  `usrid` varchar(40) NOT NULL,
+  `usrpas` varchar(40) NOT NULL,
+  `a_u` tinyint(1) NOT NULL,
+  PRIMARY KEY  (`usrid`),
+  UNIQUE KEY `usrid` (`usrid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login`
+--
+
+INSERT INTO `login` (`usrid`, `usrpas`, `a_u`) VALUES
+('anoop', 'ghve', 1),
+('k.anoop.m', 'qwer', 0);
